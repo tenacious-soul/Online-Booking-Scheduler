@@ -1,5 +1,7 @@
 # Online-Booking-Scheduler
 
+To run the project, clone the project and import it in some IDE(let's say IntelliJ), set up JDK version 18 or above, and run the project. All API endpoints, requests, etc have been attached. For the database, in-memory database H2 is used. (For local use: http://localhost:8080/h2-console/)
+
 ## Book Appointment Functionality: 
 Based on start_time, end_time, operator_id, and status(1:Active, 5:inactive) first appointment will be checked, if any appointment is found, then "Already appointment in the requested time slot" will be returned else, appointment will be booked successfully.
 Endpoint: localhost:8080/appointment/bookAppointment
