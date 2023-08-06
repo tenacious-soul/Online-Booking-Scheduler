@@ -3,7 +3,6 @@ package com.volt.bookingScheduler.controller;
 import com.volt.bookingScheduler.model.requestDTOs.BookAppointmentRequest;
 import com.volt.bookingScheduler.model.requestDTOs.RescheduleAppointment;
 import com.volt.bookingScheduler.model.responseDTOs.ResponseModel;
-import com.volt.bookingScheduler.service.AppointmentService;
 import com.volt.bookingScheduler.service.AppointmentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

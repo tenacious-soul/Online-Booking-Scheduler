@@ -19,4 +19,6 @@ public interface AppointmentRepository extends JpaRepository<Appointment, Long> 
     Integer cancelAppointment(Long appointmentId);
 
     Appointment findByAppointmentIdAndStatus(Long appointmentId, Integer status);
+
+    List<Appointment> findByOperatorIdAndStatus(Long operatorId, Integer status);
 }
